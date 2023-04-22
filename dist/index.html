@@ -8,40 +8,66 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
    <!--nain style  -->
    <link rel="stylesheet" href="css/style.min.css">
+   <!-- fontawesome -->
+   <script src="https://kit.fontawesome.com/70907eb363.js" crossorigin="anonymous"></script>
    <title>Анапа Северная</title>
 </head>
 
 <body>
    <div class="wrapper">
-      <header class="header">
-	<div class="header__container container">
+      <header class="header" id="navigation-menu">
+	<div class="container">
 			<div class="header__body">
 				
 		<!-- header__menu -->
                <div class="header__menu">
                   <nav class="menu__body">
                      <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Products</a>
-                        </li>
+                        <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="#home" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="#home" class="menu__link">Gallery</a></li>
+                        <li class="menu__item"><a href="#home" class="menu__link">Contact</a></li>
                      </ul>
                   </nav>
                </div>
-               <!-- /header__menu -->
+      <!-- /header__menu -->
 
     <!-- иконка меню бургер -->
-            <button type="button" class="menu-burger">
-               <span></span>
-               <span></span>
-               <span></span>
-            </button>
+            <div type="button" class="menu-burger">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
             <!-- /иконка меню бургер -->
 
 		</div>
 	</div>
 </header>
       <main class="main">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus adipisci, illo qui ex quae eos asperiores
-         quis a nihil eligendi quasi cum, officiis voluptatibus. Sint officia assumenda odit repellat obcaecati!
+         <section class="home" id="home">
+   <div class="container">
+      <div class="home__row">
+         <div class="home__content ">
+            <h1>Hello.Salut.Hola</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+               laboris
+               nisi ut aliquip ex ea commodo consequat. </p>
+            <button class="home__btn btn-white">MORE INFO</button>
+         </div>
+         <div class="home__item item-img">
+            <img src="img/home/home1.jpg" alt="" class="item-img__slide active">
+            <img src="img/home/home2.jpg" alt="" class="item-img__slide">
+            <img src="img/home/home3.jpg" alt="" class="item-img__slide">
+            <img src="img/home/home4.jpg" alt="" class="item-img__slide">
+         </div>
+         
+      </div>
+   </div>
+   <div class="home__image ">
+      <img src="img/home/home1.jpg" class="main-image">
+   </div>
+</section>
       </main>
       <footer class="footer">
 <footer class="footer">
@@ -52,7 +78,7 @@
 	</div>
 </footer>
    </div>
-     <!-- swiper slider -->
+   <!-- swiper slider -->
 <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  -->
 
 <!-- main file -->

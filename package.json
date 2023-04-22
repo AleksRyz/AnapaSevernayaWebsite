@@ -13,7 +13,7 @@
   },
   "author": "Ryzhkov",
   "license": "ISC",
-  "homepage": "https://aleksryz.github.io/sneackers-landing",
+  "homepage": "https://aleksryz.github.io/AnapaSevernayaWebsite",
   "devDependencies": {
     "browser-sync": "latest",
     "del": "^6.0.0",

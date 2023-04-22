@@ -8,7 +8,7 @@ flsFunctions.isWebp();
 flsFunctions.ibg();
 
 //==================================<меню бургер>=======================================
-const menuBody = document.querySelector('.menu__body');  // тело меню
+const menuBody = document.querySelector('.menu__list');  // тело меню
 const iconMenu = document.querySelector('.menu-burger'); // кнопка бургера
 if (iconMenu) {
 	
@@ -19,6 +19,39 @@ if (iconMenu) {
 	});
 }
 //==================================</меню бургер>=======================================
+
+
+//===== select image ====================================================
+
+const itemSlide = document.querySelectorAll('.item-img__slide');
+itemSlide.forEach((n) => n.addEventListener("click", selectSlide));
+
+function selectSlide(e) {
+
+   const targetElement = e.target; //получаем элемент, который вызывает событие
+
+   if (!targetElement.closest('item-img__slide.active')) {
+      closeActive();
+   }
+
+   targetElement.classList.toggle("active");
+   
+   let slide = targetElement.getAttribute("src");
+   console.log(slide);
+   document.querySelector('.main-image').src = slide;
+
+   
+   function closeActive() {
+      const classActive = document.querySelector('.item-img__slide.active');
+      if (classActive) {
+         classActive.classList.toggle("active");
+      }
+   }
+}
+//===== select image end====================================================
+
+
+
 
 
 //==================================<slider>=======================================

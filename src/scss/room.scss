@@ -1,0 +1,65 @@
+.room {
+   margin: 100px 0;
+}
+ .flex1 {
+   display: flex;
+   justify-content: space-between;
+ }
+ .heading {
+   position: relative;
+ }
+ .heading h5 {
+   font-weight: 400;
+   letter-spacing: 2px;
+   padding-top: 20px;
+   color: #5f5f5f;
+ }
+ .heading h2 {
+   font-size: 30px;
+   font-weight: 400;
+   margin: 20px 0 40px 0;
+   color: #222222;
+ }
+ 
+ .heading p {
+   margin-bottom: 20px;
+   line-height: 25px;
+   color: #5f5f5f;
+   margin: 0 0 20px 50px;
+ }
+ .grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 30px;
+ }
+ 
+ .room .grid {
+   grid-template-columns: repeat(3, 1fr);
+ }
+ 
+ .room img {
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .room .box {
+   box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
+ }
+ 
+ .room .text {
+   padding: 20px;
+ }
+ 
+ .room h3 {
+   font-weight: 400;
+   margin-bottom: 10px;
+ }
+ 
+ .room p span {
+   font-size: 12px;
+   color: grey;
+ }
+ 
+ .room p {
+   font-size: 20px;
+ }

@@ -410,3 +410,166 @@ body._lock {
   color: #5f5f5f;
   margin: 0 0 20px 50px;
 }
+
+.amenities {
+  background-image: url("../img/ami.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 480px;
+  position: relative;
+  margin: 100px 0;
+}
+
+.amenities__text {
+  background: #3f9cc1;
+  padding: 50px;
+  width: 40%;
+  height: 600px;
+  position: absolute;
+  top: -13%;
+  right: 10%;
+  padding-top: 10%;
+  color: white;
+}
+
+.amenities__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+}
+
+.amenities__text h2 {
+  font-weight: 400;
+}
+
+.amenities__text p {
+  margin: 20px 0 50px 0;
+  line-height: 30px;
+}
+
+.amenities__content i {
+  margin: 5px 20px 0 0;
+}
+
+.room {
+  margin: 100px 0;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: #5f5f5f;
+}
+
+.heading h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+  color: #222222;
+}
+
+.heading p {
+  margin-bottom: 20px;
+  line-height: 25px;
+  color: #5f5f5f;
+  margin: 0 0 20px 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+}
+
+.room .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.room img {
+  width: 100%;
+  height: 100%;
+}
+
+.room .box {
+  box-shadow: 0 13px 43px 0 rgba(37, 46, 89, 0.1);
+}
+
+.room .text {
+  padding: 20px;
+}
+
+.room h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.room p span {
+  font-size: 12px;
+  color: grey;
+}
+
+.room p {
+  font-size: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 50px 0 100px 0;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 400px;
+  /* background: rgb(164, 50, 50); */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contact {
+  margin: 50px;
+}
+
+.contact__row {
+  display: flex;
+  align-items: center;
+}
+
+.contact__map {
+  flex: 0 0 50%;
+}
+
+.contact__body {
+  flex: 0 0 50%;
+  margin: 50px;
+}
+
+.footer {
+  background: #3f9cc1;
+  flex: 0 0 auto;
+  height: 100%;
+  padding: 20px 0;
+  color: #fff;
+}

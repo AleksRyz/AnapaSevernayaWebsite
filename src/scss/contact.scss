@@ -1,0 +1,17 @@
+.contact {
+   margin: 50px;
+
+}
+.container {
+}
+.contact__row {
+   display: flex;
+   align-items: center;
+}
+.contact__map {
+   flex:0 0 50%;
+}
+.contact__body {
+   flex:0 0 50%;
+   margin: 50px;
+}

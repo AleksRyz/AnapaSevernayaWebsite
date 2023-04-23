@@ -71,6 +71,11 @@ if(document.querySelector('.mySwiper')) {
       slidesPerView: 3,    // количество  слайдов
       spaceBetween: 32,   //отступ между слайдами
       watchOverflow: true,
+      autoplay: {
+         delay: 1000, // пауза между прокруткой
+         stopOnLastSlide: true, // закончить на последнем слайде
+         disableOnInteraction: false // отключить после ручного переключения
+      },
       speed: 800,    // скорость
       loop: true,    //  бесконечный слайдер
       loopAdditionalSlides: 5,
@@ -86,6 +91,7 @@ if(document.querySelector('.mySwiper')) {
          nextEl: '.swiper-button-next',
          prevEl: '.swiper-button-prev',
       },
+    
    });
 }
 //==================================</slider>=======================================

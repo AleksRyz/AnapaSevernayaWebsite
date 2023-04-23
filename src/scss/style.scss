@@ -65,6 +65,9 @@ $md3: 768px;
 // }
 //</button>===================================
 
+html {
+   scroll-behavior: smooth;
+ }
 
 body {
    font-family: $fontFamily;
@@ -95,6 +98,13 @@ body._lock {
    padding: 0 15px;
    margin: 0 auto;
 }
+
+// заголовки
+.heading {
+   font-size: 30px;
+   text-align: center;
+   color: #5f5f5f;
+ }
 
 @import "header";
 @import "home";

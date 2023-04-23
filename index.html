@@ -16,32 +16,42 @@
 <body>
    <div class="wrapper">
       <header class="header" id="navigation-menu">
-	<div class="container">
-			<div class="header__body">
-				
-		<!-- header__menu -->
-               <div class="header__menu">
-                  <nav class="menu__body">
-                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
-                        <li class="menu__item"><a href="#room" class="menu__link">Номера</a></li>
-                        <li class="menu__item"><a href="#gallary" class="menu__link">Галерея</a></li>
-                        <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
-                     </ul>
-                  </nav>
-               </div>
-      <!-- /header__menu -->
+   <div class="container">
+      <div class="header__body">
 
-    <!-- иконка меню бургер -->
-            <div type="button" class="menu-burger">
-               <span class="bar"></span>
-               <span class="bar"></span>
-               <span class="bar"></span>
-            </div>
-            <!-- /иконка меню бургер -->
+         <div class="header__contact">
+            <ul>
+               <li><a href="tel:+79776168645"> +7 (977) 616-86-45</a></li>
+               <li><a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
+            </ul>
+         </div>
+         
+            <a class="header__adress" href="#contact">г. Анапа, улица Северная, д. 46</a>
+         
 
-		</div>
-	</div>
+         <!-- header__menu -->
+         <div class="header__menu">
+            <nav class="menu__body">
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
+                  <li class="menu__item"><a href="#room" class="menu__link">Номера</a></li>
+                  <li class="menu__item"><a href="#gallary" class="menu__link">Галерея</a></li>
+                  <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
+               </ul>
+            </nav>
+         </div>
+         <!-- /header__menu -->
+
+         <!-- иконка меню бургер -->
+         <div type="button" class="menu-burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+         <!-- /иконка меню бургер -->
+
+      </div>
+   </div>
 </header>
       <main class="main">
          <section class="home" id="home">
@@ -49,20 +59,68 @@
       <div class="home__row">
          <div class="home__content ">
             <h1>Дорогие гости Анапы</h1>
-            <p> Приглашаем Вас на отдых в гостевой дом у моря на Северной </p>
-            <!-- <button class="home__btn btn-white">MORE INFO</button> -->
+            <p> Приглашаем Вас на отдых в гостевой дом у моря.<br>
+               Мы с радостью встретим Вас и постараемся сделать Ваш отдых комфортным</p>
+
+            <a href="#about" class="home__btn btn-white">Подробнее</a>
          </div>
-         <div class="home__item item-img">
-            <img src="img/home/home5.jpg" alt="" class="item-img__slide active">
+
+         <div class="home__item">
+            <!-- <img src="img/home/home5.jpg" alt="" class="item-img__slide active">
             <img src="img/home/home2.jpg" alt="" class="item-img__slide">
             <img src="img/home/home3.jpg" alt="" class="item-img__slide">
-            <img src="img/home/home4.jpg" alt="" class="item-img__slide">
+            <img src="img/home/home4.jpg" alt="" class="item-img__slide"> -->
+            <div class="item__row">
+
+               <!-- <div class="home__figure-1">
+                  <div class="home__img">
+                     <img src="img/home/g14.jpg" alt="" class="home__image1">
+                  </div>
+               </div>
+               <div class="home__figure-2">
+                  <div class="home__img">
+                     <img src="img/home/g17.jpg" alt="" class="home__image1">
+                  </div>
+               </div> -->
+
+            </div>
          </div>
-         
+
       </div>
    </div>
    <div class="home__image ">
       <img src="img/home/home5.jpg" class="main-image">
+   </div>
+</section>
+         <section class="book">
+   <div class="container">
+
+      <div class="book__row">
+
+         <div class="input grid">
+            <div class="box">
+               <label>Заезд </label>
+               <input type="date" placeholder="Check-in-Date">
+            </div>
+            <div class="box">
+               <label>Выезд :</label>
+               <input type="date" placeholder="Check-out-Date">
+            </div>
+            <div class="box">
+               <label>Взрослые :</label> <br>
+               <input type="number" placeholder="0">
+            </div>
+            <div class="box">
+               <label>Дети :</label> <br>
+               <input type="number" placeholder="0">
+            </div>
+         </div>
+
+         <div class="search">
+            <input type="submit" value="Забронировать">
+         </div>
+
+      </div>
    </div>
 </section>
          <section class="about" id="about">
@@ -71,8 +129,8 @@
 
          <div class="about__left">
             <div class="about__img">
-               <img src="img/about/a1.jpg" alt="" class="about__image1">
-               <img src="img/about/a2.jpg" alt="" class="about__image2">
+               <img src="img/about/g17.jpg" alt="" class="about__image1">
+               <!-- <img src="img/about/g14.jpg" alt="" class="about__image2"> -->
             </div>
          </div>
 
@@ -80,57 +138,68 @@
             <div class="about__body">
               
                <h2 class="heading">О нас</h2>
-               <p>В небольшом 2- х этажном доме всего пять номеров комфорт 2- х и 3- местные. Все номера полностью оборудованы для Вашего спокойного отдыха( санузел, сплит- система, плазменный телевизор, чайник, холодильник, микроволновая печь,белое белье и полотенца). Во дворе виноградная беседка, столы и стулья для вечернего отдыха, есть общая кухня , стиральная машина , парковка.                  Также напротив находиться большая недорогая столовая Катамаран.               
-                  До песчаного пляжа Фотини и парка развлечений Джунгли 3-5 минут , а также все продуктовые магазины и рынки. </p>
-
+               <p>Наш домик находится в 5-ти минутах от моря. В небольшом 2-х этажном доме всего пять 2-х и 3-х местных номеров комфорт класса. Все номера полностью оборудованы для спокойного отдыха (санузел, сплит-система, плазменный телевизор, чайник, холодильник, микроволновая печь, белое белье и полотенца). 
+                  Во дворе виноградная беседка, столы и стулья для вечернего отдыха. Есть общая кухня , стиральная машина , парковка.                  Также напротив находиться большая недорогая столовая Катамаран.               
+                  До песчаного пляжа Фотини и парка развлечений Джунгли 3-5 минут. Рядом также все продуктовые магазины и рынки. </p>
             </div>
          </div>
 
       </div>
+
+      
+
 </section>
          <section class="amenities">
    <div class="container">
+      <h2 class="heading">Услуги</h2>
       <div class="amenities__text">
-         <h2>Our Amenities</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. </p>
 
-         <div class="amenities__content">
-            <div class="amenities__item box flex">
-               <i class="fas fa-swimming-pool"></i>
-               <span>Swimming pool</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-dumbbell"></i>
-               <span>Gym & yogo</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-spa"></i>
-               <span>Spa & massage</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-ship"></i>
-               <span>Boat Tours</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-swimmer"></i>
-               <span>Surfing Lessons</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-microphone"></i>
-               <span>Conference room</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-water"></i>
-               <span>Diving & smorking</span>
-            </div>
-            <div class="box flex">
-               <i class="fas fa-umbrella-beach"></i>
-               <span>Private Beach</span>
+         <div class="amenities__item">
+            <div class="amenities__body">
+               <h3>ПИТАНИЕ</h3>
+               <p>Общая кухня: самостоятельное приготовление</p>
+
+               <h3>СМЕНА БЕЛЬЯ</h3>
+               <p>Через 4-5 дней</p>
+
+               <h3>СМЕНА ПОЛОТЕНЕЦ</h3>
+               <p>Через 3 дня</p>
+
+               <h3>УБОРКА В НОМЕРЕ</h3>
+               <p>Через 5 дней или по запросу.</p>
+
+               <h3>ОГРАНИЧЕНИЯ</h3>
+               <p>В номерах не курить</p>
             </div>
          </div>
+
+         <div class="amenities__item">
+            <div class="amenities__body">
+               <h3>РАССТОЯНИЯ</h3>
+               <p>
+                  Пляж песчаный 5-7 минут пешком<br>
+                  Набережная 5 минут<br>
+                  Центр города 7 минут<br>
+                  Центр развлечений 5-7 минут пешком<br>
+                  Магазин продукты 1 минута<br>
+                  Банкомат (сбербанк) 3 минуты<br>
+               </p>
+
+               <h3>Дополнительные услуги:</h3>
+               <p>Трансфер (платно)<br>
+                  Экскурсии (платно)<br>
+                  Прачечная (платно)<br>
+                  FI-Wi<br>
+                  Беседка<br>
+                  Гладильная доска+утюг<br>
+               </p>
+            </div>
+
+         </div>
+
       </div>
+
+    
    </div>
 </section>
          <section class="room" id="room">
@@ -164,6 +233,38 @@
                </div>
             </div>
          </section>
+         <section class="book">
+   <div class="container">
+
+      <div class="book__row">
+
+         <div class="input grid">
+            <div class="box">
+               <label>Заезд </label>
+               <input type="date" placeholder="Check-in-Date">
+            </div>
+            <div class="box">
+               <label>Выезд :</label>
+               <input type="date" placeholder="Check-out-Date">
+            </div>
+            <div class="box">
+               <label>Взрослые :</label> <br>
+               <input type="number" placeholder="0">
+            </div>
+            <div class="box">
+               <label>Дети :</label> <br>
+               <input type="number" placeholder="0">
+            </div>
+         </div>
+
+         <div class="search">
+            <input type="submit" value="Забронировать">
+         </div>
+
+      </div>
+   </div>
+</section>
+
          <section class="gallary  " id="gallary">
 <div class="container">
    
@@ -225,7 +326,7 @@
                   <li><a href="tel:+79776168645"> +7 (977) 616-86-45</a></li>
                   <li><a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
                   <li>
-                     <span>Адрес:   г.Анапа, улица Северная, д. 46</span>
+                     <span> Анапа, улица Северная, д. 46</span>
                      </li>
                   <li>
                      <a href="mailto:ira.marinova.1973@mail.ru">

@@ -6,7 +6,30 @@
    z-index: 1;
  }
 
- .header__body {
+.header__body {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__contact, .header__adress{
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: white;
+}
+
+.header__adress {
+   font-weight: 500;
+}
+
+.header__contact li {
+   margin: 10px 0;
+}
+.header__contact a {
+   color: white;
+}
+
+ .header__menu {
    display: flex;
    justify-content:flex-end;
    padding: 20px;

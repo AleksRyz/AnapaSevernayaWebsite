@@ -429,7 +429,7 @@ body._lock {
 
 .book .input {
   background: #242e5a;
-  padding: 10px 20px 30px 20px;
+  padding: 10px 20px 20px 20px;
   border-radius: 5px 0 0 5px;
 }
 
@@ -445,6 +445,7 @@ input {
   border: 2px solid rgba(255, 255, 255, 0.1);
   outline: none;
   background: #263760;
+  margin-top: 10px;
   color: white;
 }
 
@@ -454,6 +455,9 @@ input {
 
 .book .search {
   width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .book .search input {
@@ -461,9 +465,6 @@ input {
   border: none;
   font-weight: bold;
   font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
@@ -675,7 +676,7 @@ input {
 }
 
 .contact__form {
-  background: #3f9cc1;
+  background: #242e5a;
   margin: 0 10%;
   padding: 50px 80px;
   color: #fff;

@@ -4,7 +4,7 @@
 
  .about__row {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
  }
  
@@ -35,15 +35,7 @@
    position: relative;
  }
  
- .about__body::after {
-   position: absolute;
-   top: 0;
-   left: 0;
-   content: '';
-   width: 100px;
-   height: 4px;
-   background: #C1B086;
- }
+
  
  .about__body h5 {
    font-weight: 400;

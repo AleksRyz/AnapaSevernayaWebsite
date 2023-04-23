@@ -8,51 +8,255 @@
    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
    <!--nain style  -->
    <link rel="stylesheet" href="css/style.min.css">
+   <!-- fontawesome -->
+   <script src="https://kit.fontawesome.com/70907eb363.js" crossorigin="anonymous"></script>
    <title>Анапа Северная</title>
 </head>
 
 <body>
    <div class="wrapper">
-      <header class="header">
-	<div class="header__container container">
+      <header class="header" id="navigation-menu">
+	<div class="container">
 			<div class="header__body">
 				
 		<!-- header__menu -->
                <div class="header__menu">
                   <nav class="menu__body">
                      <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Products</a>
-                        </li>
+                        <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+                        <li class="menu__item"><a href="#room" class="menu__link">Номера</a></li>
+                        <li class="menu__item"><a href="#gallary" class="menu__link">Галерея</a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
                      </ul>
                   </nav>
                </div>
-               <!-- /header__menu -->
+      <!-- /header__menu -->
 
     <!-- иконка меню бургер -->
-            <button type="button" class="menu-burger">
-               <span></span>
-               <span></span>
-               <span></span>
-            </button>
+            <div type="button" class="menu-burger">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+            </div>
             <!-- /иконка меню бургер -->
 
 		</div>
 	</div>
 </header>
       <main class="main">
-         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus adipisci, illo qui ex quae eos asperiores
-         quis a nihil eligendi quasi cum, officiis voluptatibus. Sint officia assumenda odit repellat obcaecati!
+         <section class="home" id="home">
+   <div class="container">
+      <div class="home__row">
+         <div class="home__content ">
+            <h1>Hello.Salut.Hola</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+               laboris
+               nisi ut aliquip ex ea commodo consequat. </p>
+            <button class="home__btn btn-white">MORE INFO</button>
+         </div>
+         <div class="home__item item-img">
+            <img src="img/home/home5.jpg" alt="" class="item-img__slide active">
+            <img src="img/home/home2.jpg" alt="" class="item-img__slide">
+            <img src="img/home/home3.jpg" alt="" class="item-img__slide">
+            <img src="img/home/home4.jpg" alt="" class="item-img__slide">
+         </div>
+         
+      </div>
+   </div>
+   <div class="home__image ">
+      <img src="img/home/home5.jpg" class="main-image">
+   </div>
+</section>
+         <section class="about" id="about">
+   <div class="container">
+      <div class="about__row">
+
+         <div class="about__left">
+            <div class="about__img">
+               <img src="img/about/a1.jpg" alt="" class="about__image1">
+               <img src="img/about/a2.jpg" alt="" class="about__image2">
+            </div>
+         </div>
+
+         <div class="about__right">
+            <div class="about__body">
+               <h5>RAISING COMFOMRT TO THE HIGHEST LEVEL</h5>
+               <h2>Welcome to Luviana Hotel Resort</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. </p>
+               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.</p>
+            </div>
+         </div>
+
+      </div>
+</section>
+         <section class="amenities">
+   <div class="container">
+      <div class="amenities__text">
+         <h2>Our Amenities</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. </p>
+
+         <div class="amenities__content">
+            <div class="amenities__item box flex">
+               <i class="fas fa-swimming-pool"></i>
+               <span>Swimming pool</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-dumbbell"></i>
+               <span>Gym & yogo</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-spa"></i>
+               <span>Spa & massage</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-ship"></i>
+               <span>Boat Tours</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-swimmer"></i>
+               <span>Surfing Lessons</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-microphone"></i>
+               <span>Conference room</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-water"></i>
+               <span>Diving & smorking</span>
+            </div>
+            <div class="box flex">
+               <i class="fas fa-umbrella-beach"></i>
+               <span>Private Beach</span>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+         <section class="room" id="room">
+            <div class="container">
+
+              <h2 class="heading">Номерной фонд</h2>
+
+               <div class="room__content">
+                  
+                  <div class="room__item box">
+                     <div class="room__img">
+                        <img src="img/rooms/double.jpg" alt="">
+                     </div>
+                     <div class="room__text text">
+                        <h3>2-х местный</h3>
+                        <p>от 1000 р.</p>
+                     </div>
+                  </div>
+
+                  <div class="room__item box">
+                     <div class="room__img">
+                        <img src="img/rooms/triple.jpg" alt="">
+
+                     </div>
+                     <div class="room__text text">
+                        <h3>3-х местный</h3>
+                        <p>от 1500 р.</p>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+         </section>
+         <section class="gallary  " id="gallary">
+<div class="container">
+   
+         <h3 class="gallary__header heading">Галерея</h3>
+  
+
+   <div class="swiper mySwiper ">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="img/gallary/g1.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g2.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g3.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g4.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g5.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g6.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g7.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g8.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g9.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g10.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g11.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g12.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g13.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g14.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g15.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g16.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g17.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g18.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g19.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g20.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g21.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g22.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g23.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g24.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g25.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g26.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g27.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g28.jpg" alt="slide"></div>
+         <div class="swiper-slide"><img src="img/gallary/g29.jpg" alt="slide"></div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+   </div>
+
+
+</div>
+</section>
+         <section class="contact" id="contact">
+   <div class="container">
+      <div class="contact__row">
+         <div class="contact__map">
+      
+             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7837f6e224ccc285eeb07eb1940b88c0d2f3d99f5c824323f305a1860f73d549&amp;width=705&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                           
+         </div>
+         <div class="contact__body">
+            <div class="contact__form">
+               <h3>Контактная информация</h3>
+               <ul>
+                  <li><a href="tel:+79776168645"> +7 (977) 616-86-45</a></li>
+                  <li><a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
+                  <li>
+                     <span>Адрес:   г.Анапа, улица Северная, д. 46</span>
+                     </li>
+                  <li>
+                     <a href="mailto:ira.marinova.1973@mail.ru">
+                        <i class="fa-regular fa-envelope"></i>
+                         <span>ira.marinova.1973@mail.ru</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
       </main>
       <footer class="footer">
 <footer class="footer">
 	<div class="footer__container container">
 		<div class="footer__body">
-			
+         
+
 		</div>
 	</div>
 </footer>
    </div>
-     <!-- swiper slider -->
+   <!-- swiper slider -->
 <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  -->
 
 <!-- main file -->

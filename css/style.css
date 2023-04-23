@@ -238,21 +238,21 @@ body._lock {
 }
 
 .home__content {
-  flex: 0 0 40%;
+  flex: 0 0 50%;
   color: white;
   margin: 2% 0 0 10%;
 }
 
 .home__content h1 {
-  font-size: 80px;
-  font-weight: 400;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 .home__content p {
   font-weight: 400;
-  line-height: 25px;
+  line-height: 35px;
   font-family: sans-serif;
-  font-size: 17px;
+  font-size: 25px;
   margin: 30px 0 0 10px;
 }
 
@@ -326,6 +326,7 @@ body._lock {
 .home__item {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   cursor: pointer;
 }
 
@@ -361,7 +362,7 @@ body._lock {
 
 .about__row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -389,16 +390,6 @@ body._lock {
 
 .about__body {
   position: relative;
-}
-
-.about__body::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 100px;
-  height: 4px;
-  background: #C1B086;
 }
 
 .about__body h5 {

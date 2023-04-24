@@ -4,37 +4,26 @@
    display: flex;
    // justify-content: center;
    align-items: center;
+   
 }
 
 .home__row {
    display: flex;
-   // justify-content: space-between;
+   justify-content: space-between;
    align-items: center;
-   margin-top: 40px;
+   padding-top: 150px;
 }
 
-@media only screen and (max-width: 768px){
-   .home__row {
-   margin-top: 0px;
-   }
-}
+// @media only screen and (max-width: 768px){
+//    .home__row {
+//    margin-top: 0px;
+//    }
+// }
 
-
-
-.home__image img {
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: -1;
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
- }
- 
-  .home__content {
-   flex: 0 1 60%  ;
-
+.home__content {
+   flex: 0 0 60% ;
    color: white;
+   padding: 0 50px;
  }
  
  .home__content h1 {
@@ -50,50 +39,50 @@
    margin: 30px 0 0 10px;
  }
  
- @media only screen and (max-width: 1050px){
-   .home__content {
-      flex: 0 0 40%  ;
-      color: white;
-      margin: 2% 0 0 10%;
-    }
+//  @media only screen and (max-width: 1050px){
+//    .home__content {
+//       flex: 0 0 40%  ;
+//       color: white;
+//       margin: 2% 0 0 10%;
+//     }
     
-    .home__content h1 {
-      font-size: 70px;
-    }
+//     .home__content h1 {
+//       font-size: 70px;
+//     }
 
-    .home__content p {
-      font-size: 17px;
-      line-height: 25px;
-      margin: 25px 0 0 10px;
-    }
- }
+//     .home__content p {
+//       font-size: 17px;
+//       line-height: 25px;
+//       margin: 25px 0 0 10px;
+//     }
+//  }
 
- @media only screen and (max-width: 950px){
+//  @media only screen and (max-width: 950px){
 
-     .home__content h1 {
-      font-size: 60px;
-    }
+//      .home__content h1 {
+//       font-size: 60px;
+//     }
 
-    .home__content p {
-      font-size: 15px;
-      line-height: 25px;
-      margin: 25px 0 0 10px;
-    }
+//     .home__content p {
+//       font-size: 15px;
+//       line-height: 25px;
+//       margin: 25px 0 0 10px;
+//     }
 
- }
+//  }
 
- @media only screen and (max-width: 600px) {
-   .home__content {
-      flex: 0 0 100%  ;
-      margin: 10px;
-   }
-   .home__content h1 {
-      font-size: 50px;
-    }
-    .home__content p {
-      margin: 10px 0 0 0;
-    }
- }
+//  @media only screen and (max-width: 600px) {
+//    .home__content {
+//       flex: 0 0 100%  ;
+//       margin: 10px;
+//    }
+//    .home__content h1 {
+//       font-size: 50px;
+//     }
+//     .home__content p {
+//       margin: 10px 0 0 0;
+//     }
+//  }
 
  .btn-white {
    display: inline-block;
@@ -137,60 +126,31 @@
    // justify-content: flex-end;
    // cursor: pointer;
    // background: #000;
-  height: 100px;
-  width: 100px;
-
- }
-
- .item__row {
-   background: #000;
+   // height: 450px;
+   // width: 450px;
    position: relative;
+   flex: 1 1 auto;
+
  }
 
- @media only screen and (max-width: 769px) {
-   .home__item {
-      display: none;
-   }
- }
 
-//  .home__item img {
-//    display: block;
-//    width: 140px;
-//    height: 94px;
-//    margin: 10px;
-//    transition: 0.2s;
-//    border-radius: 4px;
+//  @media only screen and (max-width: 769px) {
+//    .home__item {
+//       display: none;
+//    }
 //  }
 
-.home__figure-1 {
-   position: absolute;
-   top: -250px;
-   left: 50px;
-   width: 500px;
-   height: 500px;
-   // background: rgb(59, 187, 95);
-}
 
-.home__figure-2 {
-   position: absolute;
-   top: 90px;
-   left: 270px;
-   width: 500px;
-   height: 350px;
-   // background: rgb(189, 160, 43);
-}
+
 
 .home__img {
-   width: 100%;
-	height: 100%;
+   height: 450px;
+   max-width: 450px;
    position: relative;
    overflow: hidden;
-
    border: 10px solid  #ffffff;
    border-radius: 4px;
-   // opacity: 0.9;
    box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
-
 }
 
 .home__img img {
@@ -202,16 +162,29 @@
 	left: 0;
 }
 
- @media only screen and (max-width: 1050px) {
-   .home__item img {
-      width: 130px;
-      height: 80px;
-      margin: 10px;
-      transition: 0.2s;
-      border-radius: 4px;
-    }
- }
 
- .home__item img.active {
-   border: 2px solid white;
+
+//  @media only screen and (max-width: 1050px) {
+//    .home__item img {
+//       width: 130px;
+//       height: 80px;
+//       margin: 10px;
+//       transition: 0.2s;
+//       border-radius: 4px;
+//     }
+//  }
+
+
+
+
+ // =========фон==============
+.home__image img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
  }
+ // =========фон end==============

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -73,6 +73,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+i {
+  font-family: fontawesome !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -114,6 +118,10 @@ body._lock {
   color: #5f5f5f;
 }
 
+.white {
+  color: #fff;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -134,6 +142,11 @@ body._lock {
   font-size: 1.3rem;
   font-weight: 600;
   color: white;
+}
+
+.header a i {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
 .header__adress {
@@ -373,6 +386,10 @@ input {
   color: white;
 }
 
+.search input {
+  margin-top: 0px;
+}
+
 ::placeholder {
   color: white;
 }
@@ -452,38 +469,37 @@ input {
 }
 
 .amenities {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
   background: #3f9cc1;
   color: #fff;
-  padding-top: 80px;
+  padding: 80px 0 40px 0;
 }
 
 .amenities__text {
-  padding: 50px;
   display: flex;
   justify-content: center;
 }
 
 .amenities__item {
   flex: 0 1 50%;
-  padding: 50px 100px;
+  padding: 50px;
 }
 
-.amenities__text h3 {
+.amenities__text {
   font-weight: 500;
-  margin-bottom: 10px;
 }
 
-.amenities__text p {
+.amenities__body h3 {
+  font-size: 20px;
   margin-bottom: 20px;
-  padding-left: 20px;
-  line-height: 30px;
 }
 
-.amenities__content i {
-  margin: 5px 20px 0 0;
+.amenities__body li {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.amenities__body p {
+  margin: 10px 0 20px 10px;
 }
 
 .room {
@@ -637,14 +653,43 @@ input {
   margin-left: 10px;
 }
 
-.contact__body li a i {
+.contact__body i {
   font-size: 25px;
+  margin-right: 5px;
 }
 
 .footer {
   background: #3f9cc1;
   flex: 0 0 auto;
   height: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   color: #fff;
+}
+
+.footer__body {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer__btn {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer__btn i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer__book {
+  color: #fff;
+  font-size: 18px;
 }

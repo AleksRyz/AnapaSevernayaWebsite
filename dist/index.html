@@ -21,12 +21,17 @@
 
          <div class="header__contact">
             <ul>
-               <li><a href="tel:+79776168645"> +7 (977) 616-86-45</a></li>
-               <li><a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
+               <li>
+                  <i class="fa-sharp fa-light fa-phone"></i>
+               <a href="tel:+79776168645"> +7 (977) 616-86-45</a>
+            </li>
+               <li>
+                  <i class="fa-sharp fa-light fa-phone"></i>
+                  <a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
             </ul>
          </div>
          
-            <a class="header__adress" href="#contact">г. Анапа, улица Северная, д. 46</a>
+            <a class="header__adress" href="#contact"> <i class="fa-sharp fa-light fa-location-dot"></i> <span> г. Анапа, улица Северная, д. 46</span></a>
          
 
          <!-- header__menu -->
@@ -147,55 +152,58 @@
 </section>
          <section class="amenities" id="amenities">
    <div class="container">
-      <h2 class="heading">Услуги</h2>
+      <h2 class="heading white">Услуги</h2>
+      
       <div class="amenities__text">
 
          <div class="amenities__item">
             <div class="amenities__body">
-               <h3>ПИТАНИЕ</h3>
-               <p>Общая кухня: самостоятельное приготовление</p>
-
-               <h3>СМЕНА БЕЛЬЯ</h3>
-               <p>Через 4-5 дней</p>
-
-               <h3>СМЕНА ПОЛОТЕНЕЦ</h3>
-               <p>Через 3 дня</p>
-
-               <h3>УБОРКА В НОМЕРЕ</h3>
-               <p>Через 5 дней или по запросу.</p>
-
-               <h3>ОГРАНИЧЕНИЯ</h3>
-               <p>В номерах не курить</p>
+               <ul>
+                  <li>ОБЩАЯ КУХНЯ</li>
+                  <li>СМЕНА БЕЛЬЯ
+                     <p>Каждые 4-5 дней</p>
+                  </li>
+                  <li>СМЕНА ПОЛОТЕНЕЦ
+                     <p>Каждые 3 дня</p>
+                  </li>
+                  <li>УБОРКА В НОМЕРЕ
+                     <p>Каждые 5 дней или по запросу.</p>
+                  </li>
+                  <li>Курение в номерах запрещено</li>
+               </ul>
             </div>
          </div>
 
          <div class="amenities__item">
             <div class="amenities__body">
                <h3>РАССТОЯНИЯ</h3>
-               <p>
-                  Пляж песчаный 5-7 минут пешком<br>
-                  Набережная 5 минут<br>
-                  Центр города 7 минут<br>
-                  Центр развлечений 5-7 минут пешком<br>
-                  Магазин продукты 1 минута<br>
-                  Банкомат (сбербанк) 3 минуты<br>
-               </p>
-
-               <h3>Дополнительные услуги:</h3>
-               <p>Трансфер (платно)<br>
-                  Экскурсии (платно)<br>
-                  Прачечная (платно)<br>
-                  FI-Wi<br>
-                  Беседка<br>
-                  Гладильная доска+утюг<br>
-               </p>
+               <ul>
+                  <li>Пляж песчаный 5-7 минут пешком</li>
+                  <li>Набережная 5 минут</li>
+                  <li>Центр города 7 минут</li>
+                  <li>Центр развлечений 5-7 минут пешком</li>
+                  <li>Магазин продукты 1 минута</li>
+                  <li>Банкомат (сбербанк) 3 минуты</li>
+               </ul>
             </div>
+         </div>
 
+         <div class="amenities__item">
+            <div class="amenities__body">
+               <h3>ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ</h3>
+               <ul>
+                  <li>Трансфер (платно)</li>
+                  <li>Экскурсии (платно)</li>
+                  <li>Прачечная (платно)</li>
+                  <li>FI-Wi</li>
+                  <li>Беседка</li>
+                  <li>Гладильная доска + утюг</li>
+               </ul>
+            </div>
          </div>
 
       </div>
 
-    
    </div>
 </section>
          <section class="room" id="room">
@@ -319,9 +327,11 @@
             <div class="contact__form">
                <h3>Контактная информация</h3>
                <ul>
-                  <li><a href="tel:+79776168645"> +7 (977) 616-86-45</a></li>
-                  <li><a href="tel:+79528201143">+7 (952) 820-11-43</a></li>
                   <li>
+                     <a href="tel:+79776168645"> <i class="fa-sharp fa-light fa-phone"></i><span> +7 (977) 616-86-45</span></a></li>
+                  <li><a href="tel:+79528201143"><i class="fa-sharp fa-light fa-phone"></i><span> +7 (952) 820-11-43</span></a></li>
+                  <li>
+                     <i class="fa-sharp fa-light fa-location-dot"></i>
                      <span> Анапа, улица Северная, д. 46</span>
                      </li>
                   <li>
@@ -341,8 +351,11 @@
 <footer class="footer">
 	<div class="footer__container container">
 		<div class="footer__body">
-         
-
+         <!-- <a class="footer__book" href="#book">Забронировать номер</a> -->
+        
+            <a class="footer__btn" href="#home"><i class="fa-solid fa-backward fa-rotate-90"></i></a>
+            
+        
 		</div>
 	</div>
 </footer>
@@ -350,6 +363,8 @@
    <!-- swiper slider -->
 <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  -->
 
+   
+<script src="https://kit.fontawesome.com/70907eb363.js" crossorigin="anonymous"></script>
 <!-- main file -->
 <script src="js/app.min.js"></script>
 </body>

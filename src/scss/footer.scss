@@ -2,8 +2,34 @@
    background: #3f9cc1;
    flex: 0 0 auto;
    height: 100%;
-   padding: 20px 0;
+   padding: 10px 0;
    color: #fff;  
 }
+.footer__body {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+}
 
+.footer__btn {
+   width: 20px;
+   height: 20px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+   padding: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
 
+.footer__btn i {
+   font-size: 20px;
+   color: #fff;
+}
+
+.footer__book{
+   color: #fff;
+   // font-weight: 600;
+   font-size: 18px;
+}
